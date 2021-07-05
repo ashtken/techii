@@ -33,7 +33,12 @@ export default function Home() {
 					{products.map((product) => {
 						return (
 							<div key={product.id} className={styles.card}>
-								<img src={product.image} alt={`Preview of ${product.title}`} />
+								<Image
+									src={product.image}
+									alt={`Preview of ${product.title}`}
+									width={500}
+									height={500}
+								/>
 								<h3>{product.title}</h3>
 								<p>{product.description}</p>
 								<p>${product.price}</p>
