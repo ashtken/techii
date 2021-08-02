@@ -29,6 +29,7 @@ class MyDocument extends Document {
 					hidden
 					id="snipcart"
 					data-api-key="YThjODg0NDEtZGJiZi00NDZkLWE0YjAtOTY0NGI1MWUxOWI4NjM3NjA5NDgxMDk2NDc5NTk0"
+					data-currency="gbp"
 				/>
 			</Html>
 		);
