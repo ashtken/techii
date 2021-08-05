@@ -44,12 +44,11 @@ export default function Product({ product }) {
 				<meta name="description" content="Techii Store" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<div className=" flex justify-between m-6 xl:mx-80">
+			{/* <div className=" flex justify-between m-6 xl:mx-80">
 				<div>
 					<h1 className="text-xl font-medium text-gray-700">{product.title}</h1>
 				</div>
-				<div className="flex justify-center">
-					<p className="text-gray-500">£{product.price}</p>
+				<div className="flex">
 					<button
 						className="snipcart-add-item ml-6 px-5 py-2 shadow border border-transparent text-base font-medium rounded-md text-white bg-gray-700 hover:bg-gray-500"
 						data-item-id={product.id}
@@ -65,7 +64,7 @@ export default function Product({ product }) {
 						Buy
 					</button>
 				</div>
-			</div>
+			</div> */}
 			<div className="flex flex-col md:flex-row xl:mx-80 justify-between align-middle">
 				<div className="text-center w-full">
 					<Image
