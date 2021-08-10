@@ -1,106 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Fragment } from "react";
+import { clothing, hats, callsToAction, more, recentPosts } from "./MenuItems";
 import { Popover, Transition } from "@headlessui/react";
-import {
-	BookmarkAltIcon,
-	CalendarIcon,
-	MenuIcon,
-	PhoneIcon,
-	PlayIcon,
-	ShieldCheckIcon,
-	SupportIcon,
-	XIcon,
-} from "@heroicons/react/outline";
+import { MenuIcon, XIcon } from "@heroicons/react/outline";
 import { ChevronDownIcon } from "@heroicons/react/solid";
-
-const clothing = [
-	{
-		name: "T-Shirts",
-		description:
-			"Techii’­­s range of must-have t-shirts offer a timeless design and laidback look.",
-		href: "/categories/tshirt",
-		image: "/images/mockup-test-tshirt.png",
-	},
-	{
-		name: "Hoodies",
-		description: "Wardrobe staples and year round styles.",
-		href: "/categories/hoodies",
-		image: "/images/mockup-test-hoodie.png",
-	},
-	{
-		name: "Sweatshirts",
-		description: "Your customers' data will be safe and secure.",
-		href: "/categories/sweatshirts",
-		image: "/images/mockup-test-hoodie.png",
-	},
-	{
-		name: "Socks",
-		description:
-			"Build strategic funnels that will drive your customers to convert",
-		href: "/categories/socks",
-		image: "/images/mockup-test-facemask.png",
-	},
-];
-
-const hats = [
-	{
-		name: "Caps",
-		description:
-			"Techii’­­s range of must-have t-shirts offer a timeless design and laidback look.",
-		href: "#",
-		image: "/images/mockup-test-facemask.png",
-	},
-	{
-		name: "Beanies",
-		description: "Wardrobe staples and year round styles.",
-		href: "#",
-		image: "/images/mockup-test-hat.png",
-	},
-];
-
-const callsToAction = [
-	{ name: "Watch Demo", href: "#", icon: PlayIcon },
-	{ name: "Contact Sales", href: "#", icon: PhoneIcon },
-];
-const resources = [
-	{
-		name: "Help Center",
-		description:
-			"Get all of your questions answered in our forums or contact support.",
-		href: "#",
-		icon: SupportIcon,
-	},
-	{
-		name: "Guides",
-		description:
-			"Learn how to maximize our platform to get the most out of it.",
-		href: "#",
-		icon: BookmarkAltIcon,
-	},
-	{
-		name: "Events",
-		description:
-			"See what meet-ups and other events we might be planning near you.",
-		href: "#",
-		icon: CalendarIcon,
-	},
-	{
-		name: "Security",
-		description: "Understand how we take your privacy seriously.",
-		href: "#",
-		icon: ShieldCheckIcon,
-	},
-];
-const recentPosts = [
-	{ id: 1, name: "Boost your conversion rate", href: "#" },
-	{
-		id: 2,
-		name: "How to use search engine optimization to drive traffic to your site",
-		href: "#",
-	},
-	{ id: 3, name: "Improve your customer experience", href: "#" },
-];
 
 function classNames(...classes) {
 	return classes.filter(Boolean).join(" ");
@@ -269,7 +173,7 @@ export default function Header() {
 																		}}
 																	></div>
 																	<div className="ml-4 w-full">
-																		<p className="text-base font-medium text-gray-900">
+																		<p className="text-base font-medium text-gray-700">
 																			{item.name}
 																		</p>
 																		<p className="mt-1 text-sm text-gray-500">
@@ -337,14 +241,14 @@ export default function Header() {
 												>
 													<div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
 														<div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
-															{resources.map((item) => (
+															{more.map((item) => (
 																<a
 																	key={item.name}
 																	href={item.href}
 																	className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
 																>
 																	<item.icon
-																		className="flex-shrink-0 h-6 w-6 text-gray-900"
+																		className="flex-shrink-0 h-6 w-6 text-gray-700"
 																		aria-hidden="true"
 																	/>
 																	<div className="ml-4">
@@ -506,7 +410,7 @@ export default function Header() {
 										>
 											Hats
 										</a>
-										{resources.map((item) => (
+										{more.map((item) => (
 											<a
 												key={item.name}
 												href={item.href}
