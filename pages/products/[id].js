@@ -44,34 +44,14 @@ export default function Product({ product }) {
 				<meta name="description" content="Techii Store" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			{/* <div className=" flex justify-between m-6 xl:mx-80">
-				<div>
-					<h1 className="text-xl font-medium text-gray-700">{product.title}</h1>
-				</div>
-				<div className="flex">
-					<button
-						className="snipcart-add-item ml-6 px-5 py-2 shadow border border-transparent text-base font-medium rounded-md text-white bg-gray-700 hover:bg-gray-500"
-						data-item-id={product.id}
-						data-item-image={product.image}
-						data-item-name={product.title}
-						data-item-url={`/products/${product.id}`}
-						data-item-price={product.price}
-						data-item-custom1-name={product.name}
-						data-item-custom1-options={product.options}
-						data-item-quantity={quantity}
-						data-item-custom1-value={size}
-					>
-						Buy
-					</button>
-				</div>
-			</div> */}
 			<div className="flex flex-col md:flex-row xl:mx-80 justify-between align-middle">
 				<div className="text-center w-full">
 					<Image
+						className="bg-gray-100 rounded"
 						src={product.image}
 						alt={`Preview of ${product.title}`}
-						width={1000}
-						height={1000}
+						width={700}
+						height={700}
 					/>
 				</div>
 

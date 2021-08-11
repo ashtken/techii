@@ -4,7 +4,7 @@ import Social from "./Social";
 
 export default function Footer() {
 	return (
-		<div>
+		<div className="mt-32">
 			<Social />
 			<MainFooter />
 			<BottomBar />

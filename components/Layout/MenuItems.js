@@ -12,8 +12,8 @@ export const clothing = [
 		name: "T-Shirts",
 		description:
 			"Techii’­­s range of must-have t-shirts offer a timeless design and laidback look.",
-		href: "/categories/tshirt",
-		image: "/images/mockup-test-tshirt.png",
+		href: "/categories/tshirts",
+		image: "/images/techii-tshirt-black-front.png",
 	},
 	{
 		name: "Hoodies",
