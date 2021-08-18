@@ -373,7 +373,7 @@ export default function Header() {
 											/>
 										</div>
 										<div className="-mr-2">
-											<Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
+											<Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-black">
 												<span className="sr-only">Close menu</span>
 												<XIcon className="h-6 w-6" aria-hidden="true" />
 											</Popover.Button>
@@ -381,7 +381,25 @@ export default function Header() {
 									</div>
 									<div className="mt-6">
 										<nav className="grid gap-y-8">
+											<Link href="/all">
+												<a className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
+													<span className="ml-3 text-base font-medium text-gray-900">
+														All
+													</span>
+												</a>
+											</Link>
 											{clothing.map((item) => (
+												<a
+													key={item.name}
+													href={item.href}
+													className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
+												>
+													<span className="ml-3 text-base font-medium text-gray-900">
+														{item.name}
+													</span>
+												</a>
+											))}
+											{hats.map((item) => (
 												<a
 													key={item.name}
 													href={item.href}
@@ -397,19 +415,20 @@ export default function Header() {
 								</div>
 								<div className="py-6 px-5 space-y-6">
 									<div className="grid grid-cols-2 gap-y-4 gap-x-8">
-										<a
+										<Popover.Button
 											href="#"
-											className="text-base font-medium text-gray-900 hover:text-gray-700"
+											className="snipcart-customer-signin text-base text-left font-medium text-gray-900 hover:text-gray-700"
 										>
-											All
-										</a>
-
-										<a
-											href="#"
-											className="text-base font-medium text-gray-900 hover:text-gray-700"
-										>
-											Hats
-										</a>
+											My Account
+										</Popover.Button>
+										<Popover.Button className="text-left">
+											<a
+												href="#/cart"
+												className="text-base font-medium text-gray-900 hover:text-gray-700"
+											>
+												Cart
+											</a>
+										</Popover.Button>
 										{more.map((item) => (
 											<a
 												key={item.name}
@@ -421,17 +440,20 @@ export default function Header() {
 										))}
 									</div>
 									<div>
-										<a
+										<Popover.Button
 											href="#"
-											className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
+											className="snipcart-customer-register w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-gray-700 hover:bg-gray-500"
 										>
 											Sign up
-										</a>
+										</Popover.Button>
 										<p className="mt-6 text-center text-base font-medium text-gray-500">
-											Existing customer?{" "}
-											<a href="#" className="text-gray-900 hover:text-gray-700">
+											Existing customer?
+											<Popover.Button
+												href="#"
+												className="snipcart-customer-signin ml-2 font-bold text-gray-500 hover:text-gray-400"
+											>
 												Sign in
-											</a>
+											</Popover.Button>
 										</p>
 									</div>
 								</div>

@@ -22,7 +22,7 @@ export default function Home({ products }) {
 
 			<div>
 				<div className="flex flex-col lg:flex-row">
-					<div className="flex flex-1 justify-center px-6 w-full py-6">
+					<div className="flex flex-1 justify-center lg:justify-end lg:mr-10 xl:mr-20 px-6 w-full py-6">
 						<div className="flex flex-col justify-center">
 							<h4 className="text-base font-bold text-center text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:text-xl xl:text-2xl">
 								Techii
@@ -44,7 +44,7 @@ export default function Home({ products }) {
 							</div>
 						</div>
 					</div>
-					<div className="text-center flex-1">
+					<div className="text-center lg:text-left xl:ml-10 flex-1">
 						<Image
 							src="/images/mockup-test-hat.png"
 							alt="Preview image of a hat from Techii"
@@ -73,7 +73,7 @@ export default function Home({ products }) {
 					})}
 				</div>
 				<div className="flex flex-col lg:flex-row">
-					<div className="flex flex-1 justify-center px-6 w-full py-6">
+					<div className="flex flex-1 justify-center lg:justify-end lg:mr-10 xl:mr-20 px-6 w-full py-6">
 						<div className="flex flex-col justify-center">
 							<h4 className="text-base font-bold text-center text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:text-xl xl:text-2xl">
 								T-Shirts with Techii
@@ -95,7 +95,7 @@ export default function Home({ products }) {
 							</div>
 						</div>
 					</div>
-					<div className="text-center flex-1">
+					<div className="text-center lg:text-left xl:ml-10 flex-1">
 						<Image
 							src="/images/mockup-test-tshirt.png"
 							alt="Preview image of a T-Shirt from Techii"
