@@ -44,8 +44,8 @@ export default function Product({ product }) {
 				<meta name="description" content="Techii Store" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<div className="flex flex-col md:flex-row xl:mx-80 justify-between align-middle">
-				<div className="text-center w-full">
+			<div className="flex flex-col md:flex-row mt-12">
+				<div className="w-full text-right md:mr-10">
 					<Image
 						className="bg-gray-100 rounded"
 						src={product.image}
@@ -55,8 +55,8 @@ export default function Product({ product }) {
 					/>
 				</div>
 
-				<div className="w-full px-6 md:px-0 flex justify-center">
-					<div className="w-72 px-6 md:px-0 flex flex-col justify-center">
+				<div className="w-full flex justify-center md:justify-start">
+					<div className="w-72 px-6 md:px-0 md:ml-10  flex flex-col justify-center">
 						<div className="border-b-2 border-gray-100">
 							<h1 className="text-3xl font-medium text-gray-700 pt-4 pb-8">
 								{product.title}
