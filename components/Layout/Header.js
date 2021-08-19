@@ -39,7 +39,7 @@ export default function Header() {
 							</div>
 
 							<Popover.Group as="nav" className="hidden md:flex space-x-10">
-								<Link href="/all">
+								<Link href="/products">
 									<a className="text-base font-medium text-gray-500 hover:text-gray-900">
 										All
 									</a>
@@ -381,7 +381,7 @@ export default function Header() {
 									</div>
 									<div className="mt-6">
 										<nav className="grid gap-y-8">
-											<Link href="/all">
+											<Link href="/products">
 												<a className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50">
 													<span className="ml-3 text-base font-medium text-gray-900">
 														All

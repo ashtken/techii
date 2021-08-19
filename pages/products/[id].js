@@ -3,6 +3,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { PlusIcon, MinusIcon } from "@heroicons/react/outline";
 import Head from "next/head";
+import Breadcrumbs from "../../components/Breadcrumbs";
 
 export const getStaticPaths = async () => {
 	const paths = products.map((product) => ({
@@ -44,6 +45,7 @@ export default function Product({ product }) {
 				<meta name="description" content="Techii Store" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
+			<Breadcrumbs />
 			<div className="flex flex-col md:flex-row mt-12">
 				<div className="w-full text-right md:mr-10">
 					<Image

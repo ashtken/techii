@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
+import Breadcrumbs from "../../components/Breadcrumbs";
 import products from "../../products";
 
 export const getStaticPaths = async () => {
@@ -30,6 +31,7 @@ export default function category({ product }) {
 				<meta name="description" content="Techii Store" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
+			<Breadcrumbs />
 			<div className="container mx-auto mt-24">
 				<div className="grid grid-flow-row grid-cols-1 grid-rows-3 gap-4 justify-items-center md:grid-cols-3">
 					{product.map((p) => {

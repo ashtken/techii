@@ -1,7 +1,8 @@
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
-import products from "../products";
+import Breadcrumbs from "../../components/Breadcrumbs";
+import products from "../../products.json";
 
 export const getStaticProps = async () => {
 	return {
@@ -11,7 +12,7 @@ export const getStaticProps = async () => {
 	};
 };
 
-export default function All({ product }) {
+export default function index({ product }) {
 	return (
 		<div>
 			<Head>
@@ -19,9 +20,10 @@ export default function All({ product }) {
 				<meta name="description" content="Techii Store" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
+			<Breadcrumbs />
 			<div className="container mx-auto mt-24">
 				<div className="grid grid-flow-row grid-cols-1 grid-rows-3 gap-4 justify-items-center md:grid-cols-3">
-					{products.map((p) => {
+					{product.map((p) => {
 						return (
 							<div key={p.id} className="mb-24">
 								<Link href={`/products/${p.id}`}>
