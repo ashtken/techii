@@ -10,7 +10,6 @@ const convertBreadcrumb = (string) => {
 		.replace(/oe/g, "ö")
 		.replace(/ae/g, "ä")
 		.replace(/ue/g, "ü");
-	// .toUpperCase();
 };
 
 const Breadcrumbs = () => {
@@ -39,8 +38,8 @@ const Breadcrumbs = () => {
 
 	return (
 		<nav aria-label="breadcrumbs">
-			<ol className="flex pl-10 pt-10 capitalize text-gray-500">
-				<li>
+			<ol className="hidden md:flex pl-10 pt-10 capitalize text-gray-500">
+				<li className="pr-5">
 					<Link href="/">
 						<a>
 							<HomeIcon className="h-5 w-5" />
@@ -50,8 +49,10 @@ const Breadcrumbs = () => {
 				{breadcrumbs.map((breadcrumb, i) => {
 					return (
 						<>
-							<ChevronRightIcon className="h-5 w-5" />
-							<li key={breadcrumb.href}>
+							<div className="pr-5">
+								<ChevronRightIcon className="h-5 w-5" />
+							</div>
+							<li key={breadcrumb.href} className="pr-5">
 								<Link href={breadcrumb.href}>
 									<a>{convertBreadcrumb(breadcrumb.breadcrumb)}</a>
 								</Link>
