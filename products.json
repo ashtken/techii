@@ -56,5 +56,16 @@
 		"name": "Size",
 		"options": "XS|S|M|L|XL",
 		"categories": "tshirts"
+	},
+	{
+		"title": "Tech Sweatshirt",
+		"id": "tech_sweatshirt",
+		"description": "Get a t that will look good in tech!",
+		"price": "60.00",
+		"image": "/images/techii-tshirt-black-front.png",
+		"url": "/",
+		"name": "Size",
+		"options": "XS|S|M|L|XL",
+		"categories": "sweatshirts"
 	}
 ]

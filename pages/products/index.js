@@ -4,7 +4,7 @@ import Link from "next/link";
 import Breadcrumbs from "../../components/Breadcrumbs";
 import products from "../../products.json";
 
-export const getStaticProps = async () => {
+export const getStaticProps = () => {
 	return {
 		props: {
 			product: products,

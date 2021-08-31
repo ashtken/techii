@@ -301,10 +301,10 @@ export default function Header() {
 								</Popover>
 							</Popover.Group>
 							<div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-								<button className="snipcart-customer-signin">
+								<button className="snipcart-customer-signin ml-4">
 									<a
 										href="#"
-										className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"
+										className="whitespace-nowrap font-medium px-4 py-2 text-gray-500 hover:text-gray-900"
 									>
 										<svg
 											xmlns="http://www.w3.org/2000/svg"
@@ -322,25 +322,30 @@ export default function Header() {
 										</svg>
 									</a>
 								</button>
-								<a
-									href="#/cart"
-									className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent text-base font-medium text-gray-500 hover:text-gray-900"
-								>
-									<svg
-										xmlns="http://www.w3.org/2000/svg"
-										className="h-6 w-6"
-										fill="none"
-										viewBox="0 0 24 24"
-										stroke="currentColor"
+								<button className="snipcart-checkout">
+									<a
+										href="#"
+										className="ml-4 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent font-medium text-gray-500 hover:text-gray-900"
 									>
-										<path
-											strokeLinecap="round"
-											strokeLinejoin="round"
-											strokeWidth={2}
-											d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"
-										/>
-									</svg>
-								</a>
+										<span className="snipcart-items-count flex align-middle justify-center absolute top-11 right-8 w-4 text-xs font-light rounded-full bg-gray-700 text-white">
+											0
+										</span>
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											className="h-6 w-6"
+											fill="none"
+											viewBox="0 0 24 24"
+											stroke="currentColor"
+										>
+											<path
+												strokeLinecap="round"
+												strokeLinejoin="round"
+												strokeWidth={2}
+												d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"
+											/>
+										</svg>
+									</a>
+								</button>
 							</div>
 						</div>
 					</div>

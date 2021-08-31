@@ -5,14 +5,14 @@ import { PlusIcon, MinusIcon } from "@heroicons/react/outline";
 import Head from "next/head";
 import Breadcrumbs from "../../components/Breadcrumbs";
 
-export const getStaticPaths = async () => {
+export const getStaticPaths = () => {
 	const paths = products.map((product) => ({
 		params: { id: product.id },
 	}));
 	return { paths, fallback: true };
 };
 
-export const getStaticProps = async ({ params }) => {
+export const getStaticProps = ({ params }) => {
 	const id = params.id;
 	const product = products.find((product) => product.id === id) || {
 		notfound: true,

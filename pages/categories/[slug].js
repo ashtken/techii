@@ -4,14 +4,14 @@ import Link from "next/link";
 import Breadcrumbs from "../../components/Breadcrumbs";
 import products from "../../products";
 
-export const getStaticPaths = async () => {
+export const getStaticPaths = () => {
 	const paths = products.map((product) => ({
 		params: { slug: product.categories },
 	}));
 	return { paths, fallback: true };
 };
 
-export const getStaticProps = async ({ params }) => {
+export const getStaticProps = ({ params }) => {
 	const category = params.slug;
 	const product = products.filter(
 		(product) => product.categories === category
