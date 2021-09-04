@@ -5,7 +5,7 @@ export default function Social() {
 		<div className="flex justify-center items-center w-full h-32 border-t-2 border-gray-100">
 			<ul className="flex justify-around items-center h-auto w-60 pr-6">
 				<li>
-					<button className="text-gray-700 hover:text-gray-500">
+					<button className="text-primaryGray hover:text-lightGray">
 						<svg
 							className="w-7 fill-current"
 							role="img"
@@ -17,7 +17,7 @@ export default function Social() {
 					</button>
 				</li>
 				<li>
-					<button className="text-gray-700 hover:text-gray-500">
+					<button className="text-primaryGray hover:text-lightGray">
 						<svg
 							className="w-7 fill-current"
 							role="img"
@@ -29,7 +29,7 @@ export default function Social() {
 					</button>
 				</li>
 				<li>
-					<button className="text-gray-700 hover:text-gray-500">
+					<button className="text-primaryGray hover:text-lightGray">
 						<svg
 							className="w-7 fill-current"
 							role="img"
@@ -42,7 +42,7 @@ export default function Social() {
 					</button>
 				</li>
 				<li>
-					<button className="text-gray-700 hover:text-gray-500">
+					<button className="text-primaryGray hover:text-lightGray">
 						<svg
 							className="w-7 fill-current"
 							role="img"
@@ -54,7 +54,7 @@ export default function Social() {
 					</button>
 				</li>
 			</ul>
-			<ul className="hidden sm:flex justify-around w-60 pl-8 border-l-2 border-gray-700">
+			<ul className="hidden sm:flex justify-around w-60 pl-8 border-l-2 border-primaryGray">
 				<li>
 					<Image
 						src="/images/visa-logo.png"

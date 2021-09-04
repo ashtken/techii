@@ -46,8 +46,12 @@ export default function category({ product }) {
 											width={300}
 											height={300}
 										/>
-										<h3 className="text-center">{p.title}</h3>
-										<p className="text-center">£{p.price}</p>
+										<h3 className="text-center text-primaryGray font-semibold">
+											{p.title}
+										</h3>
+										<p className="text-center text-primaryGray font-semibold">
+											£{p.price}
+										</p>
 									</a>
 								</Link>
 							</div>

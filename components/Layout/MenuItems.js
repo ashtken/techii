@@ -1,10 +1,10 @@
 import {
 	BookmarkAltIcon,
 	CalendarIcon,
-	PhoneIcon,
-	PlayIcon,
 	ShieldCheckIcon,
+	ShoppingBagIcon,
 	SupportIcon,
+	UserIcon,
 } from "@heroicons/react/outline";
 
 export const clothing = [
@@ -40,19 +40,19 @@ export const hats = [
 		name: "Caps",
 		description:
 			"Techii’­­s range of must-have t-shirts offer a timeless design and laidback look.",
-		href: "#",
+		href: "/categories/caps",
 		image: "/images/mockup-test-facemask.png",
 	},
 	{
 		name: "Beanies",
 		description: "Wardrobe staples and year round styles.",
-		href: "#",
+		href: "/categories/beanies",
 		image: "/images/mockup-test-hat.png",
 	},
 ];
 export const callsToAction = [
-	{ name: "Watch Demo", href: "#", icon: PlayIcon },
-	{ name: "Contact Sales", href: "#", icon: PhoneIcon },
+	{ name: "My Accont", href: "#", icon: UserIcon },
+	{ name: "Cart", href: "#", icon: ShoppingBagIcon },
 ];
 export const more = [
 	{

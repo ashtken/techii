@@ -60,13 +60,13 @@ export default function Product({ product }) {
 				<div className="w-full flex justify-center md:justify-start">
 					<div className="w-72 px-6 md:px-0 md:ml-10  flex flex-col justify-center">
 						<div className="border-b-2 border-gray-100">
-							<h1 className="text-3xl font-medium text-gray-700 pt-4 pb-8">
+							<h1 className="text-3xl font-medium text-primaryGray pt-4 pb-8">
 								{product.title}
 							</h1>
-							<h2 className="text-xl font-medium text-gray-700 pb-6">
+							<h2 className="text-xl font-medium text-primaryGray pb-6">
 								{product.description}
 							</h2>
-							<p className="text-gray-500 text-lg pb-10">£{product.price}</p>
+							<p className="text-lightGray text-lg pb-10">£{product.price}</p>
 						</div>
 						<form className="py-10 flex">
 							<button onClick={decrementQuantity}>
@@ -99,7 +99,7 @@ export default function Product({ product }) {
 												onChange={(e) => setSize(e.target.value)}
 											/>
 											<label
-												className="inline-block w-10 h-10 text-center py-1.5 cursor-pointer shadow border border-transparent text-base font-medium rounded-md text-gray-900 bg-white hover:bg-gray-500 hover:text-white"
+												className="inline-block w-10 h-10 text-center py-1.5 cursor-pointer shadow border border-transparent text-base font-medium rounded-md text-primaryGray bg-white hover:bg-lightGray hover:text-white"
 												htmlFor={sizes}
 											>
 												{sizes}
@@ -109,13 +109,13 @@ export default function Product({ product }) {
 								})}
 							</div>
 						) : (
-							<h1 className="text-base font-medium text-gray-500 pb-10">
+							<h1 className="text-base font-medium text-lightGray pb-10">
 								One Size
 							</h1>
 						)}
 
 						<button
-							className="snipcart-add-item w-full py-2 shadow border border-transparent text-base font-medium rounded-md text-white bg-gray-700 hover:bg-gray-500"
+							className="snipcart-add-item w-full py-2 shadow border border-transparent text-base font-medium rounded-md text-white bg-primaryGray hover:bg-secondaryBlue transition duration-300 ease-in-out"
 							data-item-id={product.id}
 							data-item-image={product.image}
 							data-item-name={product.title}

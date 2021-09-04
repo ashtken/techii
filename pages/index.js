@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import products from "../products";
+import Button from "../components/Button";
 
 export const getStaticProps = async () => {
 	return {
@@ -24,21 +25,19 @@ export default function Home({ products }) {
 				<div className="flex flex-col lg:flex-row">
 					<div className="flex flex-1 justify-center lg:justify-end lg:mr-10 xl:mr-20 px-6 w-full py-6">
 						<div className="flex flex-col justify-center">
-							<h4 className="text-base font-bold text-center text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:text-xl xl:text-2xl">
+							<h4 className="text-base font-bold text-center text-lightGray sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:text-xl xl:text-2xl">
 								Techii
 							</h4>
-							<h1 className="text-4xl tracking-tight font-bold text-center text-gray-700 sm:text-4xl md:text-5xl xl:text-6xl">
+							<h1 className="text-4xl tracking-tight font-bold text-center text-primaryGray sm:text-4xl md:text-5xl xl:text-6xl">
 								Upgrade to the latest
 							</h1>
-							<h1 className="text-4xl tracking-tight font-bold text-center text-gray-500 sm:text-4xl md:text-5xl xl:text-6xl">
+							<h1 className="text-4xl tracking-tight font-bold text-center text-lightGray sm:text-4xl md:text-5xl xl:text-6xl">
 								Hats today
 							</h1>
 							<div className="mt-5 sm:mt-8 sm:flex justify-center">
 								<div className="rounded-md shadow">
-									<Link href="/categories/beanies">
-										<a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-700 hover:bg-gray-500 md:py-4 md:text-lg md:px-10">
-											Shop Hats
-										</a>
+									<Link href="/categories/beanies" passHref>
+										<Button name={"Shop Hats"} />
 									</Link>
 								</div>
 							</div>
@@ -65,7 +64,9 @@ export default function Home({ products }) {
 											width={150}
 											height={150}
 										/>
-										<h3 className="text-center">{product.title}</h3>
+										<h3 className="text-center text-primaryGray font-semibold">
+											{product.title}
+										</h3>
 									</a>
 								</Link>
 							</div>
@@ -75,21 +76,19 @@ export default function Home({ products }) {
 				<div className="flex flex-col lg:flex-row">
 					<div className="flex flex-1 justify-center lg:justify-end lg:mr-10 xl:mr-20 px-6 w-full py-6">
 						<div className="flex flex-col justify-center">
-							<h4 className="text-base font-bold text-center text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:text-xl xl:text-2xl">
+							<h4 className="text-base font-bold text-center text-lightGray sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:text-xl xl:text-2xl">
 								T-Shirts with Techii
 							</h4>
-							<h1 className="text-4xl tracking-tight font-bold text-center text-gray-700 sm:text-4xl md:text-5xl xl:text-6xl">
+							<h1 className="text-4xl tracking-tight font-bold text-center text-primaryGray sm:text-4xl md:text-5xl xl:text-6xl">
 								T-Shirts you will love
 							</h1>
-							<h1 className="text-4xl tracking-tight font-bold text-center text-gray-500 sm:text-4xl md:text-5xl xl:text-6xl">
+							<h1 className="text-4xl tracking-tight font-bold text-center text-lightGray sm:text-4xl md:text-5xl xl:text-6xl">
 								In one place
 							</h1>
 							<div className="mt-5 sm:mt-8 sm:flex justify-center">
 								<div className="rounded-md shadow">
-									<Link href="/categories/tshirts">
-										<a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-700 hover:bg-gray-500 md:py-4 md:text-lg md:px-10">
-											Shop T-Shirts
-										</a>
+									<Link href="/categories/tshirts" passHref>
+										<Button name={"Shop T-shirts"} />
 									</Link>
 								</div>
 							</div>
@@ -108,18 +107,16 @@ export default function Home({ products }) {
 					<div className="flex flex-col bg-gray-100 mx-10 my-10">
 						<div className="flex flex-1 justify-center px-6 w-full py-6">
 							<div className="flex flex-col justify-center">
-								<h4 className="text-base font-bold text-center text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:text-xl xl:text-2xl">
+								<h4 className="text-base font-bold text-center text-lightGray sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:text-xl xl:text-2xl">
 									The next gen
 								</h4>
-								<h1 className="text-4xl tracking-tight font-bold text-center text-gray-700 sm:text-4xl md:text-5xl xl:text-6xl">
-									Techii Hoodies
+								<h1 className="text-4xl tracking-tight font-bold text-center text-primaryGray sm:text-4xl md:text-5xl xl:text-6xl">
+									Techii Socks
 								</h1>
 								<div className="mt-5 sm:mt-8 sm:flex justify-center">
 									<div className="rounded-md shadow">
-										<Link href="/categories/tshirts">
-											<a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-700 hover:bg-gray-500 md:py-4 md:text-lg md:px-10">
-												Shop T-Shirts
-											</a>
+										<Link href="/categories/tshirts" passHref>
+											<Button name={"Shop Socks"} />
 										</Link>
 									</div>
 								</div>
@@ -137,18 +134,16 @@ export default function Home({ products }) {
 					<div className="flex flex-col bg-gray-100 mx-10 my-10">
 						<div className="flex flex-1 justify-center px-6 w-full py-6">
 							<div className="flex flex-col justify-center">
-								<h4 className="text-base font-bold text-center text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:text-xl xl:text-2xl">
+								<h4 className="text-base font-bold text-center text-lightGray sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:text-xl xl:text-2xl">
 									The next gen
 								</h4>
-								<h1 className="text-4xl tracking-tight font-bold text-center text-gray-700 sm:text-4xl md:text-5xl xl:text-6xl">
+								<h1 className="text-4xl tracking-tight font-bold text-center text-primaryGray sm:text-4xl md:text-5xl xl:text-6xl">
 									Techii Hoodies
 								</h1>
 								<div className="mt-5 sm:mt-8 sm:flex justify-center">
 									<div className="rounded-md shadow">
-										<Link href="/categories/tshirts">
-											<a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-700 hover:bg-gray-500 md:py-4 md:text-lg md:px-10">
-												Shop T-Shirts
-											</a>
+										<Link href="/categories/tshirts" passHref>
+											<Button name={"Shop Hoodies"} />
 										</Link>
 									</div>
 								</div>
