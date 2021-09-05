@@ -8,7 +8,7 @@ export const getStaticPaths = () => {
 	const paths = products.map((product) => ({
 		params: { slug: product.categories },
 	}));
-	return { paths, fallback: true };
+	return { paths, fallback: "blocking" };
 };
 
 export const getStaticProps = ({ params }) => {
