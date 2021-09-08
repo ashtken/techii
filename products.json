@@ -6,7 +6,7 @@
 		"price": "2.00",
 		"image": "/images/sticker-single.jpg",
 		"url": "/products/sticker_logo",
-		"categories": "socks"
+		"categories": "Socks"
 	},
 	{
 		"title": "Snipcart Logo Sticker Pack",
@@ -15,7 +15,7 @@
 		"price": "4.00",
 		"image": "/images/sticker-3pack.jpg",
 		"url": "/products/sticker_logo_pack",
-		"categories": "socks"
+		"categories": "Socks"
 	},
 	{
 		"title": "Tech Hat",
@@ -24,7 +24,7 @@
 		"price": "14.00",
 		"image": "/images/mockup-test-hat.png",
 		"url": "/products/tech_hat",
-		"categories": "beanies"
+		"categories": "Beanies"
 	},
 	{
 		"title": "Tech Face Mask",
@@ -33,7 +33,7 @@
 		"price": "6.50",
 		"image": "/images/mockup-test-facemask.png",
 		"url": "/products/tech_face_mask",
-		"categories": "caps"
+		"categories": "Caps"
 	},
 	{
 		"title": "Tech Coat",
@@ -44,7 +44,7 @@
 		"url": "/products/tech_coat",
 		"name": "Size",
 		"options": "XS|S|M|L|XL",
-		"categories": "hoodies"
+		"categories": "Hoodies"
 	},
 	{
 		"title": "Tech T-Shirt",
@@ -55,7 +55,7 @@
 		"url": "/products/tech_t_shirt",
 		"name": "Size",
 		"options": "XS|S|M|L|XL",
-		"categories": "tshirts"
+		"categories": "Tshirts"
 	},
 	{
 		"title": "Tech Sweatshirt",
@@ -66,6 +66,6 @@
 		"url": "/products/tech_sweatshirt",
 		"name": "Size",
 		"options": "XS|S|M|L|XL",
-		"categories": "sweatshirts"
+		"categories": "Sweatshirts"
 	}
 ]

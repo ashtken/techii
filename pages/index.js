@@ -16,7 +16,7 @@ export default function Home({ products }) {
 	return (
 		<div>
 			<Head>
-				<title>Techii</title>
+				<title>Home | Techii</title>
 				<meta name="description" content="Techii Store" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>

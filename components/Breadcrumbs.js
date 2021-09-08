@@ -46,20 +46,18 @@ const Breadcrumbs = () => {
 						</a>
 					</Link>
 				</li>
-				{breadcrumbs.map((breadcrumb, i) => {
-					return (
-						<>
-							<div className="pr-5">
-								<ChevronRightIcon className="h-5 w-5" />
-							</div>
-							<li key={breadcrumb.href} className="pr-5">
-								<Link href={breadcrumb.href}>
-									<a>{convertBreadcrumb(breadcrumb.breadcrumb)}</a>
-								</Link>
-							</li>
-						</>
-					);
-				})}
+				{breadcrumbs.map((breadcrumb) => (
+					<div key={breadcrumb.href}>
+						<div className="pr-5 inline-block">
+							<ChevronRightIcon className="h-5 w-5" />
+						</div>
+						<li className="pr-5 inline-block">
+							<Link href={breadcrumb.href}>
+								<a>{convertBreadcrumb(breadcrumb.breadcrumb)}</a>
+							</Link>
+						</li>
+					</div>
+				))}
 			</ol>
 		</nav>
 	);
