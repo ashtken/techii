@@ -6,7 +6,7 @@ This is an example of a [Snipcart](https://snipcart.com/) powered ecommerce stor
 
 ## Prerequisites
 
-You will need [Node.js](https://nodejs.org) installed on your system and a [Snipcart](https://snipcart.com/) account for your API key.
+You will need [Node.js](https://nodejs.org) installed on your system and a [Snipcart](https://snipcart.com/) account.
 
 ## Setup
 
