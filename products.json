@@ -1,55 +1,66 @@
 [
 	{
-		"title": "Snipcart Logo Sticker",
+		"title": "Techii Logo Sticker",
 		"id": "sticker_logo",
-		"description": "Show off your Snipcart support with a logo sticker!",
-		"price": "2.00",
-		"image": "/images/sticker-single.jpg",
+		"description": "Show off your Techii support with a pack of two logo stickers!",
+		"price": "5.00",
+		"image": "/images/techii-stickers.png",
 		"url": "/products/sticker_logo",
 		"categories": "Socks"
 	},
 	{
-		"title": "Snipcart Logo Sticker Pack",
-		"id": "sticker_logo_pack",
-		"description": "Get a pack of 3 Snipcart logo stickers.",
-		"price": "4.00",
-		"image": "/images/sticker-3pack.jpg",
-		"url": "/products/sticker_logo_pack",
-		"categories": "Socks"
-	},
-	{
-		"title": "Tech Hat",
-		"id": "tech_hat",
-		"description": "Get a hat for your tech needs.",
+		"title": "Techii Beanie - Black",
+		"id": "techii_beanie",
+		"description": "Get a beanie for your tech needs.",
 		"price": "14.00",
-		"image": "/images/mockup-test-hat.png",
-		"url": "/products/tech_hat",
+		"image": "/images/techii-beanie.png",
+		"url": "/products/techii_beanie",
 		"categories": "Beanies"
 	},
 	{
-		"title": "Tech Face Mask",
-		"id": "tech_face_mask",
-		"description": "Get a face mask for all of your COVID needs.",
+		"title": "Techii Beanie - Yellow",
+		"id": "techii_beanie_yellow",
+		"description": "Get a yellow beanie for your tech needs.",
+		"price": "14.00",
+		"image": "/images/techii-beanie-yellow.png",
+		"url": "/products/techii_beanie_yellow",
+		"categories": "Beanies"
+	},
+	{
+		"title": "Tech Cap",
+		"id": "tech_cap",
+		"description": "Upgrade to a Techii cap.",
 		"price": "6.50",
-		"image": "/images/mockup-test-facemask.png",
-		"url": "/products/tech_face_mask",
+		"image": "/images/techii-cap-black-side.png",
+		"url": "/products/tech_cap",
 		"categories": "Caps"
 	},
 	{
-		"title": "Tech Coat",
-		"id": "tech_coat",
-		"description": "Get a coat that will keep you warm",
+		"title": "Tech Hoodie - Black",
+		"id": "tech_hoodie",
+		"description": "Get a hoodie that will keep you warm",
 		"price": "89.00",
-		"image": "/images/mockup-test-hoodie.png",
-		"url": "/products/tech_coat",
+		"image": "/images/techii-hoodie-black-front.png",
+		"url": "/products/tech_hoodie",
 		"name": "Size",
 		"options": "XS|S|M|L|XL",
 		"categories": "Hoodies"
 	},
 	{
-		"title": "Tech T-Shirt",
+		"title": "Tech Hoodie - Yellow",
+		"id": "tech_hoodie_yellow",
+		"description": "Get a yellow hoodie that will keep you warm",
+		"price": "89.00",
+		"image": "/images/techii-hoodie-yellow.png",
+		"url": "/products/tech_hoodie_yellow",
+		"name": "Size",
+		"options": "XS|S|M|L|XL",
+		"categories": "Hoodies"
+	},
+	{
+		"title": "Tech T-Shirt - Black",
 		"id": "tech_t_shirt",
-		"description": "Get a t that will look good in tech!",
+		"description": "Get a T that will look good in tech!",
 		"price": "49.00",
 		"image": "/images/techii-tshirt-black-front.png",
 		"url": "/products/tech_t_shirt",
@@ -58,14 +69,81 @@
 		"categories": "Tshirts"
 	},
 	{
-		"title": "Tech Sweatshirt",
+		"title": "Tech T-Shirt - Yellow",
+		"id": "tech_t_shirt_yellow",
+		"description": "Get a yellow T that will look good in tech!",
+		"price": "49.00",
+		"image": "/images/techii-tshirt-yellow.png",
+		"url": "/products/tech_t_shirt_yellow",
+		"name": "Size",
+		"options": "XS|S|M|L|XL",
+		"categories": "Tshirts"
+	},
+	{
+		"title": "Tech Sweatshirt - Black",
 		"id": "tech_sweatshirt",
-		"description": "Get a t that will look good in tech!",
+		"description": "Get a sweatshirt that will look good in tech!",
 		"price": "60.00",
-		"image": "/images/techii-tshirt-black-front.png",
+		"image": "/images/techii-sweatshirt-black-front.png",
 		"url": "/products/tech_sweatshirt",
 		"name": "Size",
 		"options": "XS|S|M|L|XL",
 		"categories": "Sweatshirts"
+	},
+	{
+		"title": "Tech Sweatshirt - Yellow",
+		"id": "tech_sweatshirt_yellow",
+		"description": "Get a yellow sweatshirt that will look good in tech!",
+		"price": "60.00",
+		"image": "/images/techii-sweatshirt-yellow.png",
+		"url": "/products/tech_sweatshirt_yellow",
+		"name": "Size",
+		"options": "XS|S|M|L|XL",
+		"categories": "Sweatshirts"
+	},
+	{
+		"title": "Techii Socks - Black Trim",
+		"id": "socks",
+		"description": "Get a pack of 3 Snipcart logo stickers.",
+		"price": "14.00",
+		"image": "/images/techii-socks-front.png",
+		"url": "/products/socks",
+		"categories": "Socks"
+	},
+	{
+		"title": "Techii Socks - Yellow Trim",
+		"id": "socks_yellow",
+		"description": "Get a pack of 3 Snipcart logo stickers.",
+		"price": "14.00",
+		"image": "/images/techii-socks-yellow.png",
+		"url": "/products/socks_yellow",
+		"categories": "Socks"
+	},
+	{
+		"title": "Techii Face Mask - Black",
+		"id": "techii_face_mask",
+		"description": "Protect your self with a Techii face mask.",
+		"price": "10.00",
+		"image": "/images/techii-mask.png",
+		"url": "/products/mask",
+		"categories": "Socks"
+	},
+	{
+		"title": "Techii Face Mask - Yellow",
+		"id": "techii_face_mask_yellow",
+		"description": "Protect your self with a yellow Techii face mask.",
+		"price": "10.00",
+		"image": "/images/techii-mask-yellow.png",
+		"url": "/products/mask_yellow",
+		"categories": "Socks"
+	},
+	{
+		"title": "Techii Tote Bag",
+		"id": "tote_bag",
+		"description": "Look the part and tote everything.",
+		"price": "14.00",
+		"image": "/images/techii-tote.png",
+		"url": "/products/tote_bag",
+		"categories": "Socks"
 	}
 ]
