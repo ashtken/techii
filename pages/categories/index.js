@@ -11,7 +11,7 @@ export default function index() {
 			<Head>
 				<title>Categories | Techii</title>
 				<meta name="description" content="Techii Store" />
-				<link rel="icon" href="/favicon.ico" />
+				<link rel="icon" href="/favicon.png" />
 			</Head>
 			<Breadcrumbs />
 			<h1 className="mt-10 mb-16 text-primaryGray text-center text-6xl md:text-8xl font-semibold">

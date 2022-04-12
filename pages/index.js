@@ -18,7 +18,7 @@ export default function Home({ products }) {
 			<Head>
 				<title>Home | Techii</title>
 				<meta name="description" content="Techii Store" />
-				<link rel="icon" href="/favicon.ico" />
+				<link rel="icon" href="/favicon.png" />
 			</Head>
 
 			<div>

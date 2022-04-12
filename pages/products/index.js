@@ -18,7 +18,7 @@ export default function index({ product }) {
 			<Head>
 				<title>All Products | Techii</title>
 				<meta name="description" content="Techii Store" />
-				<link rel="icon" href="/favicon.ico" />
+				<link rel="icon" href="/favicon.png" />
 			</Head>
 			<Breadcrumbs />
 			<div className="container mx-auto mt-24">

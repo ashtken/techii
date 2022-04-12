@@ -43,7 +43,7 @@ export default function Product({ product }) {
 			<Head>
 				<title>{product.title} | Techii</title>
 				<meta name="description" content="Techii Store" />
-				<link rel="icon" href="/favicon.ico" />
+				<link rel="icon" href="/favicon.png" />
 			</Head>
 			<Breadcrumbs />
 			<div className="flex flex-col md:flex-row mt-12">

@@ -23,14 +23,13 @@ export const clothing = [
 	},
 	{
 		name: "Sweatshirts",
-		description: "Your customers' data will be safe and secure.",
+		description: "Get a sweatshirt that will look good in tech!",
 		href: "/categories/Sweatshirts",
 		image: "/images/techii-sweatshirt-black-front.png",
 	},
 	{
 		name: "Socks",
-		description:
-			"Build strategic funnels that will drive your customers to convert",
+		description: "Get a pack of Techii socks to complete your tech look.",
 		href: "/categories/Socks",
 		image: "/images/techii-socks-front.png",
 	},
@@ -38,16 +37,36 @@ export const clothing = [
 export const hats = [
 	{
 		name: "Caps",
-		description:
-			"Techii’­­s range of must-have t-shirts offer a timeless design and laidback look.",
+		description: "Upgrade to a Techii cap.",
 		href: "/categories/Caps",
 		image: "/images/techii-cap-black-side.png",
 	},
 	{
 		name: "Beanies",
-		description: "Wardrobe staples and year round styles.",
+		description: "Get a beanie for your tech needs.",
 		href: "/categories/Beanies",
 		image: "/images/techii-beanie.png",
+	},
+];
+export const accessories = [
+	{
+		name: "Stickers",
+		description:
+			"Show off your Techii support with a pack of two logo stickers!",
+		href: "/categories/Stickers",
+		image: "/images/techii-stickers.png",
+	},
+	{
+		name: "Masks",
+		description: "Protect your self with a Techii face mask.",
+		href: "/categories/Masks",
+		image: "/images/techii-mask.png",
+	},
+	{
+		name: "Tote",
+		description: "Look the part and tote everything.",
+		href: "/categories/Tote",
+		image: "/images/techii-tote.png",
 	},
 ];
 export const callsToAction = [
@@ -82,11 +101,11 @@ export const more = [
 	},
 ];
 export const recentPosts = [
-	{ id: 1, name: "Boost your conversion rate", href: "#" },
+	{ id: 1, name: "Boost your look with the latests styles", href: "#" },
 	{
 		id: 2,
-		name: "How to use search engine optimization to drive traffic to your site",
+		name: "How to upgrade your feet with socks",
 		href: "#",
 	},
-	{ id: 3, name: "Improve your customer experience", href: "#" },
+	{ id: 3, name: "How we mproved our customer experience", href: "#" },
 ];
