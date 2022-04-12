@@ -1,4 +1,4 @@
-import { clothing, hats, more } from "../MenuItems";
+import { accessories, clothing, hats, more } from "../MenuItems";
 
 export default function MainFooter() {
 	return (
@@ -24,6 +24,24 @@ export default function MainFooter() {
 				</div>
 				<div className="relative flex flex-col px-5 py-6">
 					{hats.map((item) => (
+						<a
+							key={item.name}
+							href={item.href}
+							className="-m-3 mb-3 p-3 flex items-start"
+						>
+							<div className="ml-4 w-full">
+								<p className="text-base font-medium text-gray-400">
+									{item.name}
+								</p>
+								<p className="mt-1 text-sm text-lightGray">
+									{item.description}
+								</p>
+							</div>
+						</a>
+					))}
+				</div>
+				<div className="relative flex flex-col px-5 py-6">
+					{accessories.map((item) => (
 						<a
 							key={item.name}
 							href={item.href}

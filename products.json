@@ -6,7 +6,7 @@
 		"price": "5.00",
 		"image": "/images/techii-stickers.png",
 		"url": "/products/sticker_logo",
-		"categories": "Socks"
+		"categories": "Stickers"
 	},
 	{
 		"title": "Techii Beanie - Black",
@@ -104,7 +104,7 @@
 	{
 		"title": "Techii Socks - Black Trim",
 		"id": "socks",
-		"description": "Get a pack of 3 Snipcart logo stickers.",
+		"description": "Get a pack of Techii socks to complete your tech look.",
 		"price": "14.00",
 		"image": "/images/techii-socks-front.png",
 		"url": "/products/socks",
@@ -113,7 +113,7 @@
 	{
 		"title": "Techii Socks - Yellow Trim",
 		"id": "socks_yellow",
-		"description": "Get a pack of 3 Snipcart logo stickers.",
+		"description": "Get a pack of Techii socks to complete your tech look.",
 		"price": "14.00",
 		"image": "/images/techii-socks-yellow.png",
 		"url": "/products/socks_yellow",
@@ -126,7 +126,7 @@
 		"price": "10.00",
 		"image": "/images/techii-mask.png",
 		"url": "/products/mask",
-		"categories": "Socks"
+		"categories": "Mask"
 	},
 	{
 		"title": "Techii Face Mask - Yellow",
@@ -135,7 +135,7 @@
 		"price": "10.00",
 		"image": "/images/techii-mask-yellow.png",
 		"url": "/products/mask_yellow",
-		"categories": "Socks"
+		"categories": "Mask"
 	},
 	{
 		"title": "Techii Tote Bag",
@@ -144,6 +144,6 @@
 		"price": "14.00",
 		"image": "/images/techii-tote.png",
 		"url": "/products/tote_bag",
-		"categories": "Socks"
+		"categories": "Tote"
 	}
 ]
