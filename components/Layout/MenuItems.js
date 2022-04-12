@@ -19,20 +19,20 @@ export const clothing = [
 		name: "Hoodies",
 		description: "Wardrobe staples and year round styles.",
 		href: "/categories/Hoodies",
-		image: "/images/mockup-test-hoodie.png",
+		image: "/images/techii-hoodie-black-front.png",
 	},
 	{
 		name: "Sweatshirts",
 		description: "Your customers' data will be safe and secure.",
 		href: "/categories/Sweatshirts",
-		image: "/images/mockup-test-hoodie.png",
+		image: "/images/techii-sweatshirt-black-front.png",
 	},
 	{
 		name: "Socks",
 		description:
 			"Build strategic funnels that will drive your customers to convert",
 		href: "/categories/Socks",
-		image: "/images/mockup-test-facemask.png",
+		image: "/images/techii-socks-front.png",
 	},
 ];
 export const hats = [
@@ -41,13 +41,13 @@ export const hats = [
 		description:
 			"Techii’­­s range of must-have t-shirts offer a timeless design and laidback look.",
 		href: "/categories/Caps",
-		image: "/images/mockup-test-facemask.png",
+		image: "/images/techii-cap-black-side.png",
 	},
 	{
 		name: "Beanies",
 		description: "Wardrobe staples and year round styles.",
 		href: "/categories/Beanies",
-		image: "/images/mockup-test-hat.png",
+		image: "/images/techii-beanie.png",
 	},
 ];
 export const callsToAction = [

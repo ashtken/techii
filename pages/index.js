@@ -36,7 +36,7 @@ export default function Home({ products }) {
 							</h1>
 							<div className="mt-5 sm:mt-8 sm:flex justify-center">
 								<div className="rounded-md shadow">
-									<Link href="/categories/beanies" passHref>
+									<Link href="/categories/Beanies" passHref>
 										<Button name={"Shop Hats"} />
 									</Link>
 								</div>
@@ -45,7 +45,7 @@ export default function Home({ products }) {
 					</div>
 					<div className="text-center lg:text-left xl:ml-10 flex-1">
 						<Image
-							src="/images/mockup-test-hat.png"
+							src="/images/techii-cap-black-side.png"
 							alt="Preview image of a hat from Techii"
 							width={700}
 							height={700}
@@ -96,10 +96,10 @@ export default function Home({ products }) {
 					</div>
 					<div className="text-center lg:text-left xl:ml-10 flex-1">
 						<Image
-							src="/images/mockup-test-tshirt.png"
+							src="/images/techii-tshirt-black-front.png"
 							alt="Preview image of a T-Shirt from Techii"
-							width={700}
-							height={700}
+							width={500}
+							height={500}
 						/>
 					</div>
 				</div>
@@ -124,10 +124,10 @@ export default function Home({ products }) {
 						</div>
 						<div className="text-center flex-1">
 							<Image
-								src="/images/mockup-test-tshirt.png"
-								alt="Preview image of a T-Shirt from Techii"
-								width={700}
-								height={700}
+								src="/images/techii-socks-front.png"
+								alt="Preview image of socks from Techii"
+								width={500}
+								height={500}
 							/>
 						</div>
 					</div>
@@ -142,7 +142,7 @@ export default function Home({ products }) {
 								</h1>
 								<div className="mt-5 sm:mt-8 sm:flex justify-center">
 									<div className="rounded-md shadow">
-										<Link href="/categories/tshirts" passHref>
+										<Link href="/categories/Hoodies" passHref>
 											<Button name={"Shop Hoodies"} />
 										</Link>
 									</div>
@@ -151,10 +151,10 @@ export default function Home({ products }) {
 						</div>
 						<div className="text-center flex-1">
 							<Image
-								src="/images/mockup-test-tshirt.png"
-								alt="Preview image of a T-Shirt from Techii"
-								width={700}
-								height={700}
+								src="/images/techii-hoodie-black-front.png"
+								alt="Preview image of a Hoodie from Techii"
+								width={500}
+								height={500}
 							/>
 						</div>
 					</div>
