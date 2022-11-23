@@ -51,8 +51,7 @@ export const hats = [
 export const accessories = [
 	{
 		name: "Stickers",
-		description:
-			"Show off your Techii support with a pack of two logo stickers!",
+		description: "Show off your Techii support with a pack of two logo stickers!",
 		href: "/categories/Stickers",
 		image: "/images/techii-stickers.png",
 	},
@@ -70,7 +69,7 @@ export const accessories = [
 	},
 ];
 export const callsToAction = [
-	{ name: "My Accont", href: "#", icon: UserIcon },
+	{ name: "My Account", href: "#", icon: UserIcon },
 	{ name: "Cart", href: "#", icon: ShoppingBagIcon },
 ];
 export const more = [

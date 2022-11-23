@@ -87,7 +87,7 @@ export default function Home({ products }) {
 							</h1>
 							<div className="mt-5 sm:mt-8 sm:flex justify-center">
 								<div className="rounded-md shadow">
-									<Link href="/categories/tshirts" passHref>
+									<Link href="/categories/Tshirts" passHref>
 										<Button name={"Shop T-shirts"} />
 									</Link>
 								</div>
@@ -115,7 +115,7 @@ export default function Home({ products }) {
 								</h1>
 								<div className="mt-5 sm:mt-8 sm:flex justify-center">
 									<div className="rounded-md shadow">
-										<Link href="/categories/tshirts" passHref>
+										<Link href="/categories/Socks" passHref>
 											<Button name={"Shop Socks"} />
 										</Link>
 									</div>
